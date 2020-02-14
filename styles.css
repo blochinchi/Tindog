@@ -1,3 +1,11 @@
+@media(max-width:1117px) {
+  #title{
+    text-align: center;
+  }
+  .idog{
+    transform: rotate(0);
+  }
+}
 #title{
     background-color: #ff4c68;
     color: #fff;
@@ -110,4 +118,30 @@ h2{
 }
 .price-col{
   padding: 3% 2%;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 9% 15%;
+}
+.ctatext{
+  color: #fff;
+  font-family: Montserrat;
+  font-weight: 900;
+  line-height: 1.5;
+  font-size : 3.35rem;
+  padding: 0 2% 3%;
+}
+#footer{
+  background-color: #fff;
+  text-align: center;
+  margin: 4.5% 15% 0;
+}
+.social-media-icons{
+  font-size: 143%;
+  padding: 0 0.75% 2.5% ;
+}
+.Copyright{
+  padding: 0 0 3%;
+  color: grey;
 }
