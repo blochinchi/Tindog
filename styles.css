@@ -13,23 +13,11 @@ h2{
 p{
   color: #8f8f8f;
 }
-em{
-  color: #fff;
-}
 html {
   scroll-behavior: smooth;
 }
 
 /* id section */
-
-
-#title{
-    background-color: #ff4c68;
-    color: #fff;
-    text-align: left;
-}
-
-
 
 #buttondiv{
     position: relative;
@@ -37,37 +25,21 @@ html {
     top: 3%;
     margin-bottom: 50px;
 }
-
-
-
 #testimonials{
     background-color: #ef8172;
 }
-
-
-
 #press{
     background-color:#ef8172;
     padding-bottom: 3%;
 }
-
-
 #pricing{
   padding: 100px;
 }
-
-
-
 #cta{
   background-color: #ff4c68;
-
   padding: 9% 15%;
 }
-
-
-
 #footer{
-
   margin: 4.5% 15% 0;
 }
 
@@ -84,15 +56,12 @@ html {
     font-weight: normal;
     font-size: 1.5rem;
 }
-
 .navbar{
     padding:0 0 3rem;
 }
-
 .nav-item{
     padding: 0 16px;
 }
-
 .nav-link{
     font-size: 1.2rem;
     font-weight: 300;
@@ -100,11 +69,11 @@ html {
 
  /* title section */
 
-
 #title .container-fluid{
   padding: 3% 15%;
+  background-color: #ff4c68;
+  text-align: left;
 }
-
 .idog{
     width: 60%;
     transform: rotate(25deg);
@@ -113,30 +82,46 @@ html {
     font-size : 3rem;
     line-height: 1.5;
 }
-
 .btn-dark{
     position: relative;
     left: 20px;
 }
-
 .btn-outline-light{
     position: relative;
     left: 40px;
 }
+.download-anchor-appStore{
+  color: #fff;
+  background-color: #ff4c68;
+  border-color: #343a40;
+}
+.download-anchor-appStore:hover{
+color: #fff;
+background-color: #ff4c68;
+border-color: #1d2124;
+text-decoration: none;
+}
+.donwnload-anchor-playStore{
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.donwnload-anchor-playStore:hover{
+color: #212529;
+background-color: #ff4c68;
+border-color: #f8f9fa;
+text-decoration: none;
+}
 
 /* features */
-
 
 .features-image{
     color: #ef8172;
     margin-bottom: 1rem;
 }
-
 .featuresheading{
    font-weight: 700;
    font-size: 1.5rem;
 }
-
 .features-image:hover{
     color: #ff4c68;
 }
@@ -149,53 +134,54 @@ html {
     margin: 20px;
 }
 
-.testimonial-text{
-  color: #fff;
-}
-
-
   /* press */
-
 
 .press-logo{
     width: 10%;
     margin:20px 20px 50px ;
 }
 
-
 /* pricing */
-
 
 .btn-class{
   width: 93%;
 }
-
 .price-col{
   padding: 3% 2%;
 }
 
-
    /* call to action */
 
-
 .ctatext{
-  color: #fff;
   line-height: 1.5;
   font-size : 3.35rem;
   padding: 0 2% 3%;
 }
 
-
    /* footer */
-
 
 .social-media-icons{
   font-size: 143%;
   padding: 0 0.75% 2.5% ;
+  color: #000;
 }
 .Copyright{
   padding: 0 0 3%;
 }
+
+/* colored section */
+
+.colored-section{
+  color: #fff;
+}
+
+
+/* white section */
+
+.white-section{
+  color: #000;
+}
+
 
 /* responsive (media) */
 
@@ -204,9 +190,7 @@ html {
   #title{
     text-align: center;
   }
-
   .idog{
     transform: rotate(0);
   }
-
 }
