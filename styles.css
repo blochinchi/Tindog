@@ -165,6 +165,18 @@ text-decoration: none;
   padding: 0 0.75% 2.5% ;
   color: #000;
 }
+.social-media-icons-twitter:hover{
+  color: #007bff;
+}
+.social-media-icons-facebook:hover{
+  color: #3b5998;
+}
+.social-media-icons-instagram:hover{
+  color: #8a3ab9;
+}
+.social-media-icons-mail:hover{
+  color: #D44638;
+}
 .Copyright{
   padding: 0 0 3%;
 }
