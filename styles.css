@@ -205,8 +205,8 @@ text-decoration: none;
   .idog{
     transform: rotate(0);
   }
-  .heading{
-    font-size: 2rem;
+  .heading, .ctatext{
+    font-size: 2.5rem;
     font-weight: 800;
   }
 }
